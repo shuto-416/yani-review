@@ -3,7 +3,7 @@
 ## Using language
 - java script
 - Node.js
-- React (flame work)
+- React (Library)
 - HTML
 - CSS
 

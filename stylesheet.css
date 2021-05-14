@@ -1,4 +1,60 @@
 body {
     margin: 0;
     font-family: "Hiragino Kaku Gothic ProN";
-  }
+}
+
+.container{
+    width: 100%; /* 幅100%に表示 */
+    padding: 0 150px; /* ボーダー内側余白:上+下 右+左 */
+    margin: 0 auto; /* 中央寄せ */
+}
+
+/*===================
+        header
+===================*/
+.header-left{
+      float: left; /* 左寄せ */
+}
+
+.header-right{
+      float: right; /* 右寄せ */
+      margin-right: -25px; 
+}
+
+/*==================
+        body
+==================*/
+.top{
+      padding: 180px 0 100px 0; /* 上,右,下,左 */
+      background-image: url(); /* 背景画像 */
+      background-size: cover; /* 背景画全画面表示 */
+      color: white; /* 字の色 */
+      text-align: center; /* テキストを中央寄せ */
+}
+
+.top h1{
+      opacity: 0.7; /* 透過度 */
+      font-size: 45px; /* 字のサイズ */
+      letter-spacing: 5px; /* 字幅 */
+}
+
+.top p{
+      opacity: 0.7;
+      font-size: 16px;
+      margin-bottom: 40px; /* ボーダーの外側余白 */
+}
+
+.middle{
+    color: white;
+}
+
+.middle-heading{
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.self-introduce{
+    font-size: 16px;
+    text-align: right;
+    margin-right: 20px;
+}

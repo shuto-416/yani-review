@@ -3,19 +3,17 @@ body {
     font-family: "Hiragino Kaku Gothic ProN";
 }
 
-.container{
-    width: 100%; /* 幅100%に表示 */
-    padding: 0 150px; /* ボーダー内側余白:上+下 右+左 */
-    margin: 0 auto; /* 中央寄せ */
-}
-
 /*===================
         header
 ===================*/
 header{
-    width: 100%;
+    width: 100%; /* 幅100%に表示 */
     height: 65px; /* 高さ*/
     background-color: rgba(72,61,139,0.7); /*rgb&透過度*/
+}
+.header-container{
+    padding: 0 0; /* ボーダー内側余白:上+下 右+左 */
+    margin: 0 auto; /* 中央寄せ */
 }
 .header-left{
       float: left; /* 左寄せ */
@@ -31,6 +29,8 @@ header{
 ==================*/
 .top{
       padding: 180px 0 100px 0; /* 上,右,下,左 */
+      margin: 0 auto;
+      width: 100%;
       background-image: url(yani.jpg); /* 背景画像 */
       background-size: cover; /* 背景画全画面表示 */
       color: white; /* 字の色 */
@@ -39,7 +39,7 @@ header{
 
 .top h1{
       opacity: 0.7; /* 透過度 */
-      font-size: 45px; /* 字のサイズ */
+      font-size: 60px; /* 字のサイズ */
       letter-spacing: 5px; /* 字幅 */
 }
 
@@ -50,7 +50,7 @@ header{
 }
 
 .middle{
-    color: white;
+    color: black;
 }
 
 .middle-heading{

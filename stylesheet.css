@@ -31,7 +31,7 @@ header{
 ==================*/
 .top{
       padding: 180px 0 100px 0; /* 上,右,下,左 */
-      background-image: url(yani.jpeg); /* 背景画像 */
+      background-image: url(yani.jpg); /* 背景画像 */
       background-size: cover; /* 背景画全画面表示 */
       color: white; /* 字の色 */
       text-align: center; /* テキストを中央寄せ */

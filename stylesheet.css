@@ -77,10 +77,14 @@ header{
     text-align: center;
 }
 
+.self-picture{
+    margin: 20px 25px;
+}
 .self-introduce{
     width: 50%;
     font-size: 25px;
     text-align: right;
+    float: left;
     margin-right: 50px;
     padding: 0 50px 0 0;
 }
@@ -92,7 +96,7 @@ header{
 
 .btn-review{
   padding: 8px 24px;
-  color: white;
+  color: black;
   display: inline-block;
   opacity: 0.8;
   border-radius: 4px;

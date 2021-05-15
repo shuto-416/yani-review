@@ -12,7 +12,7 @@ a{
 header{
     width: 100%; /* 幅100%に表示 */
     height: 65px; /* 高さ*/
-    background-color: rgba(72,61,139,0.7); /*rgb&透過度*/
+    background-color: rgba(2, 2, 32, 0.7); /*rgb&透過度*/
 }
 .header-container{
     padding: 0 0; /* ボーダー内側余白:上+下 右+左 */
@@ -57,9 +57,13 @@ header{
       letter-spacing: 5px; /* 字幅 */
 }
 
+.top h1 span{
+    font-size: 120px;
+}
+
 .top p{
       opacity: 0.7;
-      font-size: 40px;
+      font-size: 30px;
       margin-bottom: 40px; /* ボーダーの外側余白 */
 }
 
@@ -69,13 +73,28 @@ header{
 
 .middle-heading{
     margin: 0 auto;
-    font-size: 25px;
+    font-size: 40px;
     text-align: center;
 }
 
 .self-introduce{
-    font-size: 16px;
+    width: 50%;
+    font-size: 25px;
     text-align: right;
-    margin-right: 20px;
+    margin-right: 50px;
     padding: 0 50px 0 0;
+}
+
+.under-container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn-review{
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
 }

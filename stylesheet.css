@@ -15,7 +15,7 @@ header{
     background-color: rgba(2, 2, 32, 0.7); /*rgb&透過度*/
 }
 .header-container{
-    padding: 0 0; /* ボーダー内側余白:上+下 右+左 */
+    padding: 100px 0; /* ボーダー内側余白:上+下 右+左 */
     margin: 0 auto; /* 中央寄せ */
 }
 .header-left{
@@ -69,6 +69,10 @@ header{
 
 .middle{
     color: black;
+}
+
+.middle-container{
+    flex-wrap: wrap;
 }
 
 .middle-heading{

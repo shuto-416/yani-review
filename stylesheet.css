@@ -3,7 +3,7 @@ body {
     font-family: "Hiragino Kaku Gothic ProN";
 }
 a{
-    text-decoration: none;
+    text-decoration: none; /* ボタンの下線消去 */
 }
 
 /*===================

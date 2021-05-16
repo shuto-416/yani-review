@@ -42,7 +42,7 @@ header{
         body
 ==================*/
 .top{
-      padding: 100px 0 100px 0; /* 上,右,下,左 */
+      padding: 80px 0 100px 0; /* 上,右,下,左 */
       margin: 0 auto;
       width: 100%;
       background-image: url(yani.jpg); /* 背景画像 */
@@ -53,7 +53,7 @@ header{
 
 .top h1{
       opacity: 0.7; /* 透過度 */
-      font-size: 90px; /* 字のサイズ */
+      font-size: 70px; /* 字のサイズ */
       letter-spacing: 5px; /* 字幅 */
 }
 
@@ -79,6 +79,7 @@ header{
 
 .self-picture{
     margin: 20px 25px;
+    width: 50%;
 }
 .self-introduce{
     width: 50%;
@@ -87,6 +88,7 @@ header{
     float: right;
     margin-right: 50px;
     padding: 0 50px 0 0;
+    border: 5px solid rgba(20, 20, 20, 0.8);
 }
 
 .under-container{

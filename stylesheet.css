@@ -48,7 +48,7 @@ header{
       background-image: url(yani.jpg); /* 背景画像 */
       background-size: cover; /* 背景画全画面表示 */
       color: white; /* 字の色 */
-      text-align: center; /* テキストを中央寄せ */
+      text-align: center; /* テキストを中央揃え */
 }
 
 .top h1{
@@ -88,7 +88,7 @@ header{
 .self-introduce{
     width: 50%;
     font-size: 25px;
-    text-align: right;
+    text-align: left;
     float: right;
     margin-right: 50px;
     padding: 0 50px 0 0;
@@ -102,9 +102,21 @@ header{
 
 .btn-review{
   padding: 8px 24px;
-  color: black;
-  display: inline-block;
-  opacity: 0.8;
+  color: rgba(0,255,127,0.8);
   border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940; /* ボタンの下に指定色の影 */
   text-align: center;
+}
+
+.message:active{ /*  */
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.footer-container{
+    text-align: center;
+    float: left;
+    font-size: 16px;
 }
